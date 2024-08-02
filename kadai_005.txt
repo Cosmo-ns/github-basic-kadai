@@ -23,15 +23,6 @@ PS C:\Users\Cosmo\Desktop\新しいフォルダー (2)\git_challenge> git restor
 PS C:\Users\Cosmo\Desktop\新しいフォルダー (2)\git_challenge> git commit -m "日本語訳を追記"
 [main 26b74c5] 日本語訳を追記
  1 file changed, 2 insertions(+)
-PS C:\Users\Cosmo\Desktop\新しいフォルダー (2)\git_challenge> git log
-commit 26b74c59bd9a431df19133f64e17e8984f89b0a3 (HEAD -> main)
-Author: Cosmo-ns <a.tamami.sannuki@gmail.com>
-Date:   Sat Aug 3 03:37:59 2024 +0900
-
-    日本語訳を追記
-
-commit c3ea1b56ddcc9b1900951face9e962420a0a3ccc
-Author: Cosmo-ns <a.tamami.sannuki@gmail.com>
-Date:   Sat Aug 3 02:56:17 2024 +0900
-
-    hello_world.txtを追加
+PS C:\Users\Cosmo\Desktop\新しいフォルダー (2)\git_challenge> git log --oneline
+26b74c5 (HEAD -> main) 日本語訳を追記
+c3ea1b5 hello_world.txtを追加   

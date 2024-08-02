@@ -1,0 +1,37 @@
+PS C:\Users\Cosmo\Desktop\新しいフォルダー (2)> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\Cosmo\Desktop\新しいフォルダー (2)
+
+
+Mode                 LastWriteTime         Length Name                             
+d-----        2024/08/03      2:39                git_challenge                    
+
+
+PS C:\Users\Cosmo\Desktop\新しいフォルダー (2)> cd git_challenge
+Initialized empty Git repository in C:/Users/Cosmo/Desktop/新しいフォルダー (2)/git_challenge/.git/
+PS C:\Users\Cosmo\Desktop\新しいフォルダー (2)\git_challenge> git add [C:\Users\Cosmo\Desktop\新しいフォルダー (2)\git_challenge]
+>> git add [C:\Users\Cosmo\Desktop\新しいフォルダー (2)\git_challenge]
+>> git add .
+>>
+Desktop/新しいフォルダー (2)/git_challenge'
+fatal: \git_challenge]: '\git_challenge]' is outside repository at 'C:/Users/Cosmo/Desktop/新しいフォルダー (2)/git_challenge'
+PS C:\Users\Cosmo\Desktop\新しいフォルダー (2)\git_challenge> git add hello_world.txt
+PS C:\Users\Cosmo\Desktop\新しいフォルダー (2)\git_challenge> git commit -m "hello_world.txtを追加"
+ create mode 100644 hello_world.txt
+PS C:\Users\Cosmo\Desktop\新しいフォルダー (2)\git_challenge> git restore -- hello_world.txt
+PS C:\Users\Cosmo\Desktop\新しいフォルダー (2)\git_challenge> git commit -m "日本語訳を追記"
+[main 26b74c5] 日本語訳を追記
+ 1 file changed, 2 insertions(+)
+PS C:\Users\Cosmo\Desktop\新しいフォルダー (2)\git_challenge> git log
+commit 26b74c59bd9a431df19133f64e17e8984f89b0a3 (HEAD -> main)
+Author: Cosmo-ns <a.tamami.sannuki@gmail.com>
+Date:   Sat Aug 3 03:37:59 2024 +0900
+
+    日本語訳を追記
+
+commit c3ea1b56ddcc9b1900951face9e962420a0a3ccc
+Author: Cosmo-ns <a.tamami.sannuki@gmail.com>
+Date:   Sat Aug 3 02:56:17 2024 +0900
+
+    hello_world.txtを追加
